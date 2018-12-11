@@ -18,7 +18,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "android": "tns run android --bundle",
-    "ios": "tns run ios --bundle"
+    "ios": "tns run ios --bundle",
+    "node-red": "node ./node_modules/node-red/red.js"
   },
   "private": true,
   "dependencies": {
@@ -57,6 +58,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "nativescript-dev-typescript": "~0.7.0",
     "nativescript-dev-webpack": "^0.17.0",
+    "node-red": "^0.19.5",
     "protractor": "^5.4.1",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
